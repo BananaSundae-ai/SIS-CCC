@@ -1,0 +1,161 @@
+/* Default styles (Desktop and Tablets) */
+.login-container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.logo img {
+    height: 100px;
+}
+
+/* Header Styles */
+.main-title {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.sub-title {
+    font-size: 1.2rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+.form-title {
+    text-align: left;
+    color: #494949;
+    margin-bottom: 25px;
+    font-size: 16px;
+    margin-top: 40px;  /* Added more space above Sign in */
+}
+
+.form-control {
+    padding: 12px;
+    margin-bottom: 15px;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+}
+
+.footer-text {
+    text-align: center;
+    color: #666;
+    margin-top: 20px;
+}
+
+.forgot-password {
+    float: right;
+    text-decoration: none;
+}
+
+/* Mobile (Portrait) Devices */
+@media (max-width: 575px) {
+    .login-container {
+        max-width: 100%;
+        padding: 15px;
+        margin: 20px;
+    }
+    .logo img {
+        height: 80px;
+    }
+    .main-title {
+        font-size: 1.3rem;
+    }
+    .sub-title {
+        font-size: 1.1rem;
+        margin-bottom: 30px;
+    }
+    .form-title {
+        font-size: 1.1rem; /* Smaller font size for Sign in on mobile */
+        margin-top: 30px; /* Adjust top margin */
+    }
+    .form-control {
+        padding: 10px;
+    }
+    .login-btn {
+        font-size: 1rem;
+    }
+}
+
+/* Small to Medium Screens (Tablets and Large Phones) */
+@media (max-width: 767px) {
+    .login-container {
+        max-width: 90%;
+    }
+    .main-title {
+        font-size: 1.4rem;
+    }
+    .form-title {
+        font-size: 1.2rem; /* Adjust font size for better visibility */
+        margin-top: 35px; /* Slightly more space on top */
+    }
+    .form-control {
+        padding: 11px;
+    }
+    .login-btn {
+        padding: 14px;
+        font-size: 1.1rem;
+    }
+}
+
+/* Large Screens (Desktops, etc.) */
+@media (min-width: 1024px) {
+    .login-container {
+        max-width: 400px;
+        margin: 50px auto;
+    }
+    .logo img {
+        height: 100px;
+    }
+    .main-title {
+        font-size: 1.5rem;
+    }
+    .sub-title {
+        font-size: 1.2rem;
+    }
+    .form-title {
+        font-size: 1.4rem; /* Slightly smaller font on larger screens */
+        margin-top: 50px; /* More space above */
+    }
+    .form-control {
+        padding: 14px;
+    }
+    .login-btn {
+        font-size: 1.1rem;
+    }
+}
+
+/* Extra Large Screens (Larger Desktops and High Resolution) */
+@media (min-width: 1200px) {
+    .login-container {
+        max-width: 500px;
+        padding: 30px;
+    }
+    .logo img {
+        height: 120px;
+    }
+    .main-title {
+        font-size: 1.6rem;
+    }
+    .sub-title {
+        font-size: 1.3rem;
+    }
+    .form-title {
+        font-size: 1.6rem; /* Slightly smaller for extra-large screens */
+        margin-top: 60px; /* Larger top margin for extra space */
+    }
+}
